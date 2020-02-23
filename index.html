@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>プログラミング用フォント Ricty</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/css/lightbox.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="canonical" href="https://rictyfonts.github.io" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand navbar-dark">
+            <div class="collapse navbar-collapse justify-content-end">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link">Ricty</a></li>
+                    <li class="nav-item"><a class="nav-link" href="diminished">Ricty Diminished</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md">
+                    <h1>プログラミング用フォント Ricty</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>概要</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Ricty（リクティ）は Linux 環境での研究・開発を想定したプログラミング用フォントです。テキストエディタやターミナルエミュレータ、プログラミング言語やマークアップ言語に対する使用に適しています。<a href="http://levien.com/type/myfonts/inconsolata.html">Inconsolata</a> と <a href="http://mix-mplus-ipa.osdn.jp">Migu 1M</a> の合成、および、プログラミング用フォントとしてのいくつかのチューニングを行う生成スクリプトを配布しています。Inconsolata 作者の Raph Levien 氏、Migu 1M 作者の itouhiro 氏、<a href="http://mplus-fonts.osdn.jp">M<sup>+</sup> M Type-1</a> 作者の coz 氏、<a href="http://ipafont.ipa.go.jp">IPA ゴシック</a>のベースとされている <a href="https://www.typebank.co.jp/fontfamily/tbgothic/">TB ゴシック</a>作者の林隆男氏、私のイニシャルから Ricty と命名しました。</p>
+                    <p>また、JIS 第二水準の漢字が不足している姉妹フォント <a href="diminished">Ricty Diminished</a> はフリーな TrueType フォントを配布しています。</p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-around">
+                    <a href="./img/ricty_screenshot_c.png" data-lightbox="Ricty" data-title="Ricty screenshot of C"><img src="./img/ricty_screenshot_c_thumbnail.png" alt="Ricty screenshot of C" class="img-fluid img-thumbnail" /></a>
+                    <a href="./img/ricty_screenshot_html.png" data-lightbox="Ricty" data-title="Ricty screenshot of HTML"><img src="./img/ricty_screenshot_html_thumbnail.png" alt="Ricty screenshot of HTML" class="img-fluid img-thumbnail" /></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>ハイライト</h2>
+                    <ul>
+                        <li>ラテン文字には <a href="http://levien.com/type/myfonts/inconsolata.html">Inconsolata</a> が適用されます。</li>
+                        <li>それ以外の文字には <a href="http://mix-mplus-ipa.osdn.jp">Migu 1M</a> が適用されます。<a href="http://mplus-fonts.osdn.jp">M<sup>+</sup> M Type-1</a> の美しいグリフと <a href="http://ipafont.ipa.go.jp">IPA ゴシック</a>の JIS 第四水準漢字、そして、Migu 1M の判読性の高い和文文字（半濁音など）が使用できます。</li>
+                        <li>半角文字と全角文字の横幅の比が 1:2 に調整されています。</li>
+                        <li>全角スペースが可視化されます。</li>
+                        <li>いくつかの全角グリフが対応する半角グリフと差別化されています。</li>
+                        <li>en ダッシュ、em ダッシュが破断線のようになります（LaTeX での入力ミス防止のため）。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>派生フォント Ricty Discord</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Ricty では、調和・統一感の維持のため、プログラミング用フォントのコアである Inconsolata 由来の ASCII 文字に手を入れないようにしています。一方、Discord（不協和音）版は、判読性向上のため、調和・統一感を犠牲にして以下の ASCII 文字に手を入れた Ricty の派生フォントです。</p>
+                    <div class="overflow-auto">
+                        <dl>
+                            <dt><code>"</code></dt>
+                            <dd>ダブルクオートを拡大する。</dd>
+                            <dt><code>'</code></dt>
+                            <dd>クオートを拡大する。</dd>
+                            <dt><code>*</code></dt>
+                            <dd>アスタリスクをやや下方に移動する。</dd>
+                            <dt><code>+</code></dt>
+                            <dd>プラスをやや下方に移動する。</dd>
+                            <dt><code>,</code></dt>
+                            <dd>コンマを拡大する。</dd>
+                            <dt><code>-</code></dt>
+                            <dd>ハイフンをやや下方に移動する。</dd>
+                            <dt><code>.</code></dt>
+                            <dd>ピリオドを拡大する。</dd>
+                            <dt><code>0</code></dt>
+                            <dd>0 をドットゼロ（Inconsolata の不使用グリフ）にする。</dd>
+                            <dt><code>7</code></dt>
+                            <dd>7 にクロスバーを付ける。</dd>
+                            <dt><code>:</code></dt>
+                            <dd>コロンを拡大する。</dd>
+                            <dt><code>;</code></dt>
+                            <dd>セミコロンを拡大する。</dd>
+                            <dt><code>&lt;</code> および <code>&gt;</code></dt>
+                            <dd>不等号をやや下方に移動する。</dd>
+                            <dt><code>=</code></dt>
+                            <dd>等号をやや下方に移動する。</dd>
+                            <dt><code>D</code></dt>
+                            <dd>D を Eth にする（D にクロスバーを付ける）。</dd>
+                            <dt><code>Z</code></dt>
+                            <dd>Z にクロスバーを付ける。</dd>
+                            <dt><code>^</code></dt>
+                            <dd>サーカムフレックスを拡大する。</dd>
+                            <dt><code>`</code></dt>
+                            <dd>グレイブを拡大する。</dd>
+                            <dt><code>l</code></dt>
+                            <dd>l の左下のセリフを切り落とす。</dd>
+                            <dt><code>r</code></dt>
+                            <dd>r をセリフ体（Inconsolata の不使用グリフ）にする。</dd>
+                            <dt><code>z</code></dt>
+                            <dd>z にクロスバーを付ける。</dd>
+                            <dt><code>|</code></dt>
+                            <dd>縦線を破断線にする。</dd>
+                            <dt><code>~</code></dt>
+                            <dd>チルダを上方に移動する。</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex justify-content-around">
+                    <a href="./img/ricty_discord_screenshot_c.png" data-lightbox="Ricty Discord" data-title="Ricty Discord screenshot of C"><img src="./img/ricty_discord_screenshot_c_thumbnail.png" alt="Ricty Discord screenshot of C" class="img-fluid img-thumbnail" /></a>
+                    <a href="./img/ricty_discord_screenshot_html.png" data-lightbox="Ricty Discord" data-title="Ricty Discord screenshot of HTML"><img src="./img/ricty_discord_screenshot_html_thumbnail.png" alt="Ricty Discord screenshot of HTML" class="img-fluid img-thumbnail" /></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>ライセンス</h2>
+                    <ul>
+                        <li>Ricty 生成スクリプトは二条項 BSD ライセンスに従うものとします。</li>
+                        <li>Ricty 生成スクリプトにより生成されたフォントは <a href="http://scripts.sil.org/ofl">SIL Open Font License (OFL) Version 1.1</a> および <a href="http://ipafont.ipa.go.jp/ipa_font_license_v1.html">IPA Font License Agreement v1.0</a> に従うものとします。特に、OFL 1.1 Section 5 に従い、生成されたフォントの再配布は禁止とします。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>ダウンロード</h2>
+                    <dl>
+                        <dt><a href="./files/ricty_generator.sh"><code>ricty_generator.sh</code></a></dt>
+                        <dd>Ricty 生成スクリプト</dd>
+                        <dt><a href="./files/os2version_reviser.sh"><code>os2version_reviser.sh</code></a></dt>
+                        <dd>生成されたフォントの文字間隔が不自然に大きくなったときにフォントを修正するスクリプト</dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>生成方法</h2>
+                    <ol>
+                        <li><a href="https://fontforge.github.io">FontForge Open Source Font Editor</a> やパッケージマネージャから FontForge をインストールします。</li>
+                        <li><a href="https://fonts.google.com/specimen/Inconsolata">Google Fonts Inconsolata</a>（リリース）もしくは <a href="https://github.com/google/fonts/tree/master/ofl/inconsolata">GitHub google/fonts/ofl/inconsolata</a>（アップストリーム）から Inconsolata（2.000 以降）を入手します。</li>
+                        <li><a href="http://mix-mplus-ipa.osdn.jp">M<sup>+</sup> と IPA の合成フォント</a>から Migu 1M（2015.0712 以降）を入手します。</li>
+                        <li><a href="./files/ricty_generator.sh">Ricty 生成スクリプト</a>を以下のように実行します。</li>
+                    </ol>
+                    <pre>% ./ricty_generator.sh auto</pre>
+                    <p>もしくは</p>
+                    <pre>% ./ricty_generator.sh Inconsolata-{Regular,Bold}.ttf migu-1m-{regular,bold}.ttf</pre>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>Ricty 生成スクリプトのオプション</h2>
+                    <h3>使用法</h3>
+                    <pre>ricty_generator.sh [オプション] auto</pre>
+                    <pre>ricty_generator.sh [オプション] Inconsolata-{Regular,Bold}.ttf migu-1m-{regular,bold}.ttf</pre>
+                    <h3>オプション</h3>
+                    <div class="overflow-auto">
+                        <dl>
+                            <dt><code>-h</code></dt>
+                            <dd>ヘルプを表示する。</dd>
+                            <dt><code>-V</code></dt>
+                            <dd>バージョン番号を表示する。</dd>
+                            <dt><code>-f /path/to/fontforge</code></dt>
+                            <dd><code>fontforge</code> コマンドのパスを指定する。</dd>
+                            <dt><code>-v</code></dt>
+                            <dd><code>fontforge</code> の警告メッセージを表示する。</dd>
+                            <dt><code>-l</code></dt>
+                            <dd>生成の過程で生じる中間ファイルを削除せずに残す。</dd>
+                            <dt><code>-n string</code></dt>
+                            <dd>フォントファミリ名を「Ricty」ではなく「Ricty ○○○」として生成する。</dd>
+                            <dt><code>-w</code></dt>
+                            <dd>行間を広くする。</dd>
+                            <dt><code>-W</code></dt>
+                            <dd>行間をかなり広くする。</dd>
+                            <dt><code>-Z unicode</code></dt>
+                            <dd>他のグリフのコピーすることで全角スペースを可視化する（たとえば <code>-Z 2668</code> とすると、全角スペースが &#x2668; になる）。</dd>
+                            <dt><code>-z</code></dt>
+                            <dd>全角スペースを可視化しない。</dd>
+                            <dt><code>-a</code></dt>
+                            <dd>Inconsolata のグリフを優先し、Ambiguous 文字を全角化しない。</dd>
+                            <dt><code>-s</code></dt>
+                            <dd>Migu 1M のグリフを縮小しない（<code>-w</code> オプションとの併用を推奨）。</dd>
+                            <dt><code>-d characters</code></dt>
+                            <dd>Ricty Discord で Discord 化しない文字を指定する（たとえば <code>"7DZz"</code>、<code>"\"\`"</code>）。</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>バージョン</h2>
+                    <div class="overflow-auto">
+                        <h3><a href="./files/ricty_generator.sh">最新版</a></h3>
+                        <h3><a href="./files/ricty_generator-4.1.1.sh">4.1.1（2017 年 12 月 3 日）</a></h3>
+                        <ul>
+                            <li>斜体生成スクリプトの Ricty 生成スクリプトへの統合</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-4.1.0.sh">4.1.0（2016 年 12 月 30 日）</a></h3>
+                        <ul>
+                            <li>Ricty Discord 生成スクリプトの Ricty 生成スクリプトへの統合</li>
+                            <li>Inconsolata 2.000 対応</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-4.0.1.sh">4.0.1（2016 年 1 月 28 日）</a></h3>
+                        <ul>
+                            <li>ヒンティング情報の付与</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-4.0.0.sh">4.0.0（2015 年 12 月 31 日）</a></h3>
+                        <ul>
+                            <li>Inconsolata.otf から Inconsolata-Regular/Bold.ttf への切り替え</li>
+                            <li>Inconsolata をボールド化するオプションの廃止</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.2.4.sh">3.2.4（2014 年 12 月 7 日）</a></h3>
+                        <ul>
+                            <li>ライセンス変更（public domain → 二条項 BSD）</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.2.3.sh">3.2.3（2014 年 5 月 4 日）</a></h3>
+                        <ul>
+                            <li>ASCII グリフのボールド体の太さの変更（以前の太さにするときは <code>-b</code>）</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.2.2.sh">3.2.2（2013 年 6 月 9 日）</a></h3>
+                        <ul>
+                            <li>全角括弧を半角括弧と差別化</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.2.1.sh">3.2.1（2012 年 11 月 6 日）</a></h3>
+                        <ul>
+                            <li>M<sup>+</sup> FONTS LICENSE 記述の除去（Migu 1M の更新に追従）</li>
+                            <li>いくつかの環境で等幅でなくなる問題に対処</li>
+                            <li>em ダッシュ処理の修正</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.2.0.sh">3.2.0（2012 年 4 月 16 日）</a></h3>
+                        <ul>
+                            <li>行間の調整</li>
+                            <li>コマンドラインオプションの追加</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.1.3.sh">3.1.3（2011 年 11 月 24 日）</a></h3>
+                        <ul>
+                            <li>Ricty Discord のコマンドラインオプション</li>
+                            <li>コマンドラインオプションの追加</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.1.2.sh">3.1.2（2011 年 10 月 3 日）</a></h3>
+                        <ul>
+                            <li>Migu 20111002 に同期（後方互換を担保せず）</li>
+                            <li>コマンドラインオプションの追加</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.1.1.sh">3.1.1（2011 年 7 月 8 日）</a></h3>
+                        <ul>
+                            <li>コマンドラインオプションの追加</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.1.0.sh">3.1.0（2011 年 6 月 19 日）</a></h3>
+                        <ul>
+                            <li>Mac OS X で Regular と Bold が異なる高さで表示される問題に対処</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.0.2.sh">3.0.2（2011 年 6 月 2 日）</a></h3>
+                        <ul>
+                            <li>生成スクリプトへの auto オプションの追加</li>
+                        </ul>
+                        <h3><a href="./files/ricty_generator-3.0.1.sh">3.0.1（2011 年 5 月 20 日）</a></h3>
+
+                        <h3><a href="./files/ricty_generator-3.0.0.sh">3.0.0（2011 年 5 月 17 日）</a></h3>
+                        <ul>
+                            <li>生成スクリプトの配布開始</li>
+                            <li>TrueType フォントの配布中止</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h2>既知の問題</h2>
+                    <ul>
+                        <li>Ricty Discord の <code>0</code>、<code>r</code> が異なるグリフになることがあります。Inconsolata や Migu 1M のバージョンが合っていないことが原因です。</li>
+                        <li>半角文字と全角文字の横幅比が 1:2 にならないことがあります。ピクセル値（px）が偶数でないとき、どのフォントでも起こりうる問題です。一般的な 96 DPI のフォントレンダリングでは 9 pt、10.5 pt、12 pt、13.5 pt、15 pt など、1.5 の倍数を指定すると 1:2 で表示されます。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.0/js/lightbox-plus-jquery.min.js"></script>
+    </body>
+</html>
