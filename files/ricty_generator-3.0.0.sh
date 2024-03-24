@@ -46,7 +46,7 @@ input_inconsolata=$1
 input_migu1m_regular=$2
 input_migu1m_bold=$3
 
-# check file existance
+# check file existence
 if [ ! -f $input_inconsolata ]
 then
     echo "Error: $input_inconsolata not found"
@@ -268,7 +268,7 @@ i = 0; while (i < SizeOf(fontstyle_list))
     Select(0u2014); PasteInto()
     OverlapIntersect()
     Copy(); Select(0u2015); Paste()
-    # post proccess
+    # post process
     SelectWorthOutputting(); RemoveOverlap(); RoundToInt()
     # generate
     Generate(fontfamily+"-"+fontstyle_list[i]+".ttf", "", 0x84)

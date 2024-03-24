@@ -136,7 +136,7 @@ ricty_generator_help()
     echo "  -W                     Widen line space extremely"
     echo "  -Z unicode             Set visible zenkaku space copied from another glyph"
     echo "  -z                     Disable visible zenkaku space"
-    echo "  -a                     Disable fullwidth ambiguous charactors"
+    echo "  -a                     Disable fullwidth ambiguous characters"
     echo "  -s                     Disable scaling down Migu 1M"
     echo "  -d characters          Set non-Discorded characters in Ricty Discord"
     exit 0
@@ -187,7 +187,7 @@ do
             zenkaku_space_glyph="0u3000"
             ;;
         "a" )
-            echo "Option: Disable fullwidth ambiguous charactors"
+            echo "Option: Disable fullwidth ambiguous characters"
             fullwidth_ambiguous_flag="false"
             ;;
         "s" )
@@ -205,7 +205,7 @@ do
 done
 shift `expr $OPTIND - 1`
 
-# Check fontforge existance
+# Check fontforge existence
 if ! which $fontforge_command > /dev/null 2>&1
 then
     echo "Error: ${fontforge_command} command not found" >&2
@@ -215,7 +215,7 @@ fi
 # Get input fonts
 if [ $# -eq 1 -a "$1" = "auto" ]
 then
-    # Check existance of directories
+    # Check existence of directories
     tmp=""
     for i in $fonts_directories
     do
@@ -245,7 +245,7 @@ then
     input_inconsolata_bold=$2
     input_migu1m_regular=$3
     input_migu1m_bold=$4
-    # Check existance of files
+    # Check existence of files
     if [ ! -r "$input_inconsolata_regular" ]
     then
         echo "Error: ${input_inconsolata_regular} not found" >&2
@@ -704,7 +704,7 @@ while (i < SizeOf(fontstyle_list))
     PasteWithOffset(490, 0); PasteWithOffset(-490, 0)
     OverlapIntersect()
 
-    # Proccess before saving
+    # Process before saving
     Print("Process before saving (it may take a few minutes).")
     Select(".notdef")
     DetachAndRemoveGlyphs()
