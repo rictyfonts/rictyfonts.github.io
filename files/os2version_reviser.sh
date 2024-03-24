@@ -7,7 +7,7 @@
 # All rights reserved.
 #
 # This script is to revise OS/2 Version of Ricty.
-# If the spaces between fullwidth charcters are unusually large,
+# If the spaces between fullwidth characters are unusually large,
 # you can use this script and revise it.
 #
 # Usage:
