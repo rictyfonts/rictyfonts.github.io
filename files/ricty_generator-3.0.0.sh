@@ -268,7 +268,7 @@ i = 0; while (i < SizeOf(fontstyle_list))
     Select(0u2014); PasteInto()
     OverlapIntersect()
     Copy(); Select(0u2015); Paste()
-    # post proccess
+    # post process
     SelectWorthOutputting(); RemoveOverlap(); RoundToInt()
     # generate
     Generate(fontfamily+"-"+fontstyle_list[i]+".ttf", "", 0x84)

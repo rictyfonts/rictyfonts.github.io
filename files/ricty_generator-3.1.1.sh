@@ -443,7 +443,7 @@ i = 0; while (i < SizeOf(fontstyle_list))
     Select(0u2014); PasteInto()
     OverlapIntersect()
     Copy(); Select(0u2015); Paste()
-    # post proccess
+    # post process
     SelectWorthOutputting(); RoundToInt(); RemoveOverlap(); RoundToInt()
     # generate
     if (addfontfamily != "")

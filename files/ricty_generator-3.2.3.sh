@@ -494,7 +494,7 @@ while (i < SizeOf(fontstyle_list))
     # Detach and remove .notdef
     Select(".notdef")
     DetachAndRemoveGlyphs()
-    # Post-proccess
+    # Post-process
     SelectWorthOutputting()
     RoundToInt(); RemoveOverlap(); RoundToInt()
     # Save Ricty

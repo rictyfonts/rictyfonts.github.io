@@ -704,7 +704,7 @@ while (i < SizeOf(fontstyle_list))
     PasteWithOffset(490, 0); PasteWithOffset(-490, 0)
     OverlapIntersect()
 
-    # Proccess before saving
+    # Process before saving
     Print("Process before saving (it may take a few minutes).")
     Select(".notdef")
     DetachAndRemoveGlyphs()

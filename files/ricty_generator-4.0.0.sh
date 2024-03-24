@@ -514,7 +514,7 @@ while (i < SizeOf(fontstyle_list))
     Select(".notdef")
     DetachAndRemoveGlyphs()
 
-    # Post-proccess
+    # Post-process
     SelectWorthOutputting()
     RoundToInt(); RemoveOverlap(); RoundToInt()
 
