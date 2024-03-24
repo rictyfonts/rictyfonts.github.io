@@ -1041,13 +1041,13 @@ if (input_ttf:t:e != "ttf")
     Quit()
 endif
 
-hypen_index = Strrstr(input, '-')
-if (hypen_index == -1)
+hyphen_index = Strrstr(input, '-')
+if (hyphen_index == -1)
     Print(usage)
     Quit()
 endif
-input_family = Strsub(input, 0, hypen_index)
-input_style  = Strsub(input, hypen_index + 1)
+input_family = Strsub(input, 0, hyphen_index)
+input_style  = Strsub(input, hyphen_index + 1)
 
 output_family = input_family
 
