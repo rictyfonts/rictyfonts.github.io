@@ -105,7 +105,7 @@ ricty_generator_help()
     echo "  -B                     Make regular-face ASCII glyphs bolder"
     echo "  -Z unicode             Set visible zenkaku space copied from another glyph"
     echo "  -z                     Disable visible zenkaku space"
-    echo "  -a                     Disable fullwidth ambiguous charactors"
+    echo "  -a                     Disable fullwidth ambiguous characters"
     echo "  -s                     Disable scaling down Migu 1M"
     exit 0
 }
@@ -163,7 +163,7 @@ do
             zenkaku_space_glyph="0u3000"
             ;;
         "a" )
-            echo "Option: Disable fullwidth ambiguous charactors"
+            echo "Option: Disable fullwidth ambiguous characters"
             fullwidth_ambiguous_flag="false"
             ;;
         "s" )
