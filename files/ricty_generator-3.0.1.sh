@@ -74,7 +74,7 @@ input_inconsolata=$1
 input_migu1m_regular=$2
 input_migu1m_bold=$3
 
-# check file existance
+# check file existence
 if [ ! -r $input_inconsolata ]
 then
     echo "Error: $input_inconsolata not found" 1>&2

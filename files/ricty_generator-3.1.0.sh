@@ -71,7 +71,7 @@ Version 1.1 section 5, it is PROHIBITED to distribute the generated font.
 
 _EOT_
 
-# check fontforge existance
+# check fontforge existence
 if [ ! "$(which fontforge)" ]
 then
     echo "Error: fontforge command not found" 1>&2
@@ -81,7 +81,7 @@ fi
 # get input fonts
 if [ $# -eq 1 -a "$1" = "auto" ]
 then
-    # check dirs existance
+    # check dirs existence
     tmp=""
     for i in $fonts_dirs
     do
@@ -109,7 +109,7 @@ then
     input_inconsolata=$1
     input_migu1m_regu=$2
     input_migu1m_bold=$3
-    # check file existance
+    # check file existence
     if [ ! -r $input_inconsolata ]
     then
 	echo "Error: $input_inconsolata not found" 1>&2
