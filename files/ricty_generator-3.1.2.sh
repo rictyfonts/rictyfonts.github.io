@@ -82,7 +82,7 @@ ricty_generator_help()
         "Inconsolata.otf migu-1m-regular.ttf migu-1m-bold.ttf"
     echo ""
     echo "Options:"
-    echo "  -h                     Display this infomation"
+    echo "  -h                     Display this information"
     echo "  -V                     Display version number"
     echo "  -f /path/to/fontforge  Set path to fontforge command"
     echo "  -v                     Enable verbose mode (display fontforge's warnings)"
